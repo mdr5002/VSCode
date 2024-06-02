@@ -1,0 +1,207 @@
+{
+ "type": "AdaptiveCard",
+ "version": "1.0",
+ "body": [
+  {
+   "type": "TextBlock",
+   "text": "AC Markdown Example",
+   "separator": true,
+   "size": "Large",
+   "weight": "Bolder",
+   "color": "Accent"
+  },
+  {
+   "type": "TextBlock",
+   "text": "This example demonstrates all the markdown features usable with cards"
+  },
+  {
+   "type": "ActionSet",
+   "actions": [
+    {
+     "type": "Action.ToggleVisibility",
+     "title": "Basic Markdown Formatting",
+     "targetElements": [
+      "basic"
+     ],
+     "id": ""
+    }
+   ]
+  },
+  {
+   "type": "Container",
+   "items": [
+    {
+     "type": "FactSet",
+     "facts": [
+      {
+       "title": "    **Bold**",
+       "value": "**Bold**"
+      },
+      {
+       "title": "    *Italic*",
+       "value": "*Italic*"
+      },
+      {
+       "title": "    **__Both__**",
+       "value": "**_ItalicBold_**"
+      },
+      {
+       "title": "    ~~Strike~~",
+       "value": "~~Strike~~"
+      }
+     ]
+    }
+   ],
+   "id": "basic",
+   "isVisible": false
+  },
+  {
+   "type": "ActionSet",
+   "actions": [
+    {
+     "type": "Action.ToggleVisibility",
+     "title": "Emojis",
+     "targetElements": [
+      "lists"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Container",
+   "id": "lists",
+   "items": [
+    {
+     "type": "TextBlock",
+     "text": "All unicode emojis can be used"
+    },
+    {
+     "type": "TextBlock",
+     "text": "😀 😀 😆🤣😂😇🥰😍🤩😘"
+    },
+    {
+     "type": "TextBlock",
+     "text": "\n[Full List](https://unicode.org/emoji/charts/full-emoji-list.html)"
+    }
+   ],
+   "isVisible": false
+  },
+  {
+   "type": "ActionSet",
+   "actions": [
+    {
+     "type": "Action.ToggleVisibility",
+     "title": "Hyperlinks",
+     "targetElements": [
+      "links"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Container",
+   "items": [
+    {
+     "type": "TextBlock",
+     "text": "\n    [I'm an inline-style link](https://www.google.com)\n[I'm an inline-style link](https://www.google.com)\n\n    [I'm an inline-style link with title](https://www.google.com \"Google's Homepage\")\n[I'm an inline-style link with title](https://www.google.com \"Google's Homepage\")\n\n    [reference-style link definitions][1]\n[reference-style link definitions][1]\n\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\n[1]: http://slashdot.org\n[link text itself]: http://www.reddit.com"
+    }
+   ],
+   "id": "links",
+   "isVisible": false
+  },
+  {
+   "type": "ActionSet",
+   "actions": [
+    {
+     "type": "Action.ToggleVisibility",
+     "title": "Images",
+     "targetElements": [
+      "images"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Container",
+   "items": [
+    {
+     "type": "TextBlock",
+     "text": "\n```\nInline-style: \n![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 1\")\n\nReference-style: \n![alt text][logo]\n\n[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 2\"\n```\nInline-style: \n![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 1\")\n\nReference-style: \n![alt text][logo]\n\n[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \"Logo Title Text 2\"\n"
+    }
+   ],
+   "id": "images",
+   "isVisible": false
+  },
+  {
+   "type": "ActionSet",
+   "actions": [
+    {
+     "type": "Action.ToggleVisibility",
+     "title": "Tables",
+     "targetElements": [
+      "tables"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Container",
+   "items": [
+    {
+     "type": "TextBlock",
+     "text": "```\n| Tables        | Are           | Cool  |\n| ------------- |:-------------:| -----:|\n| col 3 is      | right-aligned | $1600 |\n| col 2 is      | centered      |   $12 |\n| zebra stripes | are neat      |    $1 |\n```\n| Tables        | Are           | Cool  |\n| ------------- |:-------------:| -----:|\n| col 3 is      | right-aligned | $1600 |\n| col 2 is      | centered      |   $12 |\n| zebra stripes | are neat      |    $1 |"
+    }
+   ],
+   "id": "tables",
+   "isVisible": false
+  },
+  {
+   "type": "ActionSet",
+   "actions": [
+    {
+     "type": "Action.ToggleVisibility",
+     "title": "Horizontal Rule",
+     "targetElements": [
+      "lines"
+     ],
+     "id": ""
+    }
+   ]
+  },
+  {
+   "type": "Container",
+   "items": [
+    {
+     "type": "TextBlock",
+     "text": "\n```\nThree or more...\n\n---\n\nHyphens\n\n***\n\nAsterisks\n\n___\n\nUnderscores\n```\nThree or more...\n\n---\n\nHyphens\n\n***\n\nAsterisks\n\n___\n\nUnderscores"
+    }
+   ],
+   "id": "lines",
+   "isVisible": false
+  },
+  {
+   "type": "ActionSet",
+   "actions": [
+    {
+     "type": "Action.ToggleVisibility",
+     "title": "Youtube Embedd",
+     "targetElements": [
+      "embedd"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Container",
+   "items": [
+    {
+     "type": "TextBlock",
+     "text": "\n```\n[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/wT1yFr_j6IM/0.jpg)](http://www.youtube.com/watch?v=wT1yFr_j6IM)\n```\n[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/wT1yFr_j6IM/0.jpg)](http://www.youtube.com/watch?v=wT1yFr_j6IM)"
+    }
+   ],
+   "id": "embedd",
+   "isVisible": false
+  }
+ ],
+ "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}

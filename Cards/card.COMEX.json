@@ -1,0 +1,408 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "id": "DateID",
+                            "text": "📅May 5, 2024",
+                            "wrap": true,
+                            "spacing": "Large",
+                            "size": "Medium",
+                            "horizontalAlignment": "Left",
+                            "weight": "Bolder",
+                            "color": "Accent",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "id": "547a4b58-6cb2-dcd8-5f4b-9411c9f96551",
+                                    "padding": "None",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "id": "04371cdc-003e-9c83-4b7a-abf741656dbf",
+                                                    "padding": "None",
+                                                    "width": "auto",
+                                                    "style": "emphasis"
+                                                }
+                                            ],
+                                            "padding": "None",
+                                            "style": "emphasis"
+                                        }
+                                    ],
+                                    "style": "emphasis"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "COMEX  Copper Futures 📈",
+                                            "wrap": true,
+                                            "weight": "Bolder",
+                                            "size": "ExtraLarge",
+                                            "color": "Warning"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center",
+                                    "padding": "None",
+                                    "spacing": "Small",
+                                    "style": "emphasis"
+                                }
+                            ],
+                            "padding": "None",
+                            "style": "emphasis"
+                        }
+                    ],
+                    "horizontalAlignment": "Right",
+                    "padding": "None",
+                    "style": "emphasis"
+                }
+            ],
+            "style": "emphasis",
+            "padding": "Small",
+            "separator": true
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "id": "fbee1628-4c64-274a-cfc2-234a4fb5b58b",
+                            "padding": "None",
+                            "width": "auto",
+                            "style": "emphasis",
+                            "spacing": "Small",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [],
+                                    "padding": "None",
+                                    "spacing": "None"
+                                },
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "id": "50441d97-c08c-8152-7bf8-1335bf051da6",
+                                            "padding": "Small",
+                                            "width": "auto"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "id": "22c0d5e3-2444-2629-4087-68a697eba31f",
+                                            "padding": "Small",
+                                            "width": "auto",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Settle Price ($/lb):    ",
+                                                    "weight": "Bolder",
+                                                    "size": "ExtraLarge",
+                                                    "spacing": "Small",
+                                                    "horizontalAlignment": "Left",
+                                                    "wrap": true
+                                                }
+                                            ],
+                                            "horizontalAlignment": "Left",
+                                            "verticalContentAlignment": "Center",
+                                            "spacing": "Small"
+                                        }
+                                    ],
+                                    "padding": "None",
+                                    "spacing": "None",
+                                    "horizontalAlignment": "Center",
+                                    "style": "emphasis"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "id": "dedd16f4-2ba8-0d69-b4e9-a2eda2ed147f",
+                            "padding": "Small",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Container",
+                                    "id": "9b4faab1-3e96-ce62-7798-53f8451ea798",
+                                    "padding": "None",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "id": "a606b125-daba-45b0-2600-e071ebae9c19",
+                                                    "padding": "None",
+                                                    "width": "auto",
+                                                    "items": [],
+                                                    "spacing": "None",
+                                                    "verticalContentAlignment": "Center",
+                                                    "style": "emphasis",
+                                                    "horizontalAlignment": "Center"
+                                                }
+                                            ],
+                                            "padding": "None",
+                                            "style": "emphasis",
+                                            "spacing": "None"
+                                        }
+                                    ],
+                                    "style": "emphasis",
+                                    "spacing": "Small"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "text": "358.70",
+                                    "size": "ExtraLarge",
+                                    "weight": "Bolder",
+                                    "spacing": "None"
+                                }
+                            ],
+                            "horizontalAlignment": "Left",
+                            "style": "emphasis",
+                            "spacing": "Small",
+                            "verticalContentAlignment": "Center"
+                        }
+                    ],
+                    "padding": "None",
+                    "spacing": "Large",
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Container",
+                    "id": "af6d233d-ee90-fafa-841a-3634dbcf7ca6",
+                    "padding": "None",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "id": "114838bc-53b7-5bdf-3157-1d2884aed788",
+                                    "padding": "None",
+                                    "width": "auto",
+                                    "style": "emphasis"
+                                },
+                                {
+                                    "type": "Column",
+                                    "id": "2f48fa7e-11ae-cde3-74c7-32da65a3c3d1",
+                                    "padding": "None",
+                                    "width": "stretch",
+                                    "items": [],
+                                    "style": "emphasis",
+                                    "spacing": "None",
+                                    "verticalContentAlignment": "Center"
+                                }
+                            ],
+                            "padding": "None",
+                            "style": "emphasis"
+                        }
+                    ],
+                    "spacing": "None",
+                    "verticalContentAlignment": "Bottom",
+                    "style": "emphasis"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "id": "c1396748-38a4-eb48-917f-d88faa34a5c7",
+                            "padding": "Default",
+                            "width": "auto",
+                            "style": "emphasis",
+                            "spacing": "None",
+                            "verticalContentAlignment": "Center",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [],
+                                    "padding": "None",
+                                    "style": "emphasis"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "id": "0933d57a-2f0f-e116-0e6e-ea22591b9673",
+                            "padding": "None",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "Container",
+                                    "id": "8d40e7e4-e60c-259a-5e1c-fec17f4c189f",
+                                    "padding": "None",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "id": "8e885918-f766-758c-f4ac-381b62451fc5",
+                                                    "padding": "None",
+                                                    "width": "stretch",
+                                                    "style": "emphasis",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "id": "02dd3be7-8c6b-ef12-a865-6105be25e1c7",
+                                                                    "padding": "None",
+                                                                    "width": "auto",
+                                                                    "items": [],
+                                                                    "style": "emphasis"
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "id": "e1c41181-5afb-cacb-609f-620fe30ecb24",
+                                                                    "padding": "None",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "FactSet",
+                                                                            "id": "288f81bf-b23b-5f31-e0da-22ce24aaea63",
+                                                                            "facts": [
+                                                                                {
+                                                                                    "title": "Open",
+                                                                                    "value": "3.600"
+                                                                                },
+                                                                                {
+                                                                                    "title": "High: ",
+                                                                                    "value": "3.620"
+                                                                                },
+                                                                                {
+                                                                                    "title": "Low: ",
+                                                                                    "value": "3.560"
+                                                                                }
+                                                                            ],
+                                                                            "separator": true,
+                                                                            "spacing": "Small"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "padding": "None"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "padding": "None",
+                                            "style": "emphasis",
+                                            "spacing": "None",
+                                            "separator": true,
+                                            "horizontalAlignment": "Left"
+                                        }
+                                    ],
+                                    "style": "emphasis"
+                                }
+                            ],
+                            "style": "emphasis",
+                            "spacing": "None",
+                            "horizontalAlignment": "Left"
+                        }
+                    ],
+                    "padding": "Small",
+                    "spacing": "None",
+                    "style": "emphasis"
+                }
+            ],
+            "padding": "None",
+            "style": "emphasis",
+            "spacing": "None",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "id": "9d5b417d-757a-5c27-4672-0f42f0569a90",
+                    "padding": "None",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "id": "1410b88c-9bee-bd7d-89c9-38e937616e30",
+                                    "padding": "None",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "ActionSet",
+                                            "actions": [
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "id": "e0ed4359-c95a-011c-0d9f-af6dc6a38830",
+                                                    "title": "Open Excel",
+                                                    "url": "https://kalaswire.sharepoint.com/:x:/s/AccountingResources/EWClUmOcRi1LugMEIDZulcYBN3OC7C-tDhQQgrf6o7nbLA?e=1KNeNQ",
+                                                    "style": "positive",
+                                                    "isPrimary": true
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center",
+                                    "style": "emphasis"
+                                }
+                            ],
+                            "padding": "None",
+                            "style": "emphasis"
+                        }
+                    ],
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "id": "32aede3c-c835-0c7c-3e8c-33dad451fc2a",
+                    "padding": "None",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Website",
+                                    "url": "https://finance.yahoo.com/quote/HG%3DF/history",
+                                    "style": "positive",
+                                    "isPrimary": true
+                                }
+                            ]
+                        }
+                    ],
+                    "style": "emphasis"
+                }
+            ],
+            "padding": "Default",
+            "spacing": "None",
+            "style": "emphasis"
+        }
+    ],
+    "padding": "None"
+}
