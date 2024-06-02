@@ -56,12 +56,11 @@ httpcore==0.18.0
     # via httpx
 httpx[http2]==0.25.0
     # via
-    #   httpx
     #   microsoft-kiota-http
     #   msgraph-core
 hyperframe==6.0.1
     # via h2
-idna==3.4
+idna==3.7
     # via
     #   anyio
     #   httpx
